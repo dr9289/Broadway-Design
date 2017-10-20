@@ -3,7 +3,7 @@ html {
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 70px;
     margin: auto;
 }
@@ -22,7 +22,8 @@ header {
 }
 
 h1,
-#process {
+#process,
+.design {
     font-weight: bold;
 }
 
@@ -34,6 +35,25 @@ ul {
     list-style-type: none;
 }
 
-h1, .btn-nav {
+h1,
+.btn-nav1 {
     color: white;
+}
+
+.design {
+    background-image: url(Resources/flatiron.png);
+}
+
+.design h2 {
+    font-size: 23px;
+    color: white;
+}
+#navlist2 ul li { 
+    display: inline; 
+}
+a:visited{
+    color: gray;
+}
+p.footer{
+    font-size: 11px;
 }
