@@ -1,6 +1,32 @@
-html {
-    font-family: Helvetica;
-    text-align: center;
+#copyright {
+    font-size: 11px;
+}
+
+#process {
+    font-size: 32px;
+}
+
+.design {
+    background-image: url(Resources/flatiron.png);
+}
+
+.design h2 {
+    color: #FFF;
+    font-size: 23px;
+}
+
+a:visited {
+    color: gray;
+}
+
+footer {
+    background-color: #696969;
+    color: #FFF;
+    text-align: left;
+}
+
+footer ul li {
+    display: inline;
 }
 
 h1 {
@@ -8,23 +34,29 @@ h1 {
     margin: auto;
 }
 
-li {
-    font-size: 18px;
+h1,
+#process,
+.design {
+    font-weight: 700;
+}
+
+h1,
+.btn-nav1 {
+    color: #FFF;
 }
 
 header {
     background-image: url(Resources/flatiron.png);
-    max-height: 300px;
+    max-height: 50%;
 }
 
-#process {
-    font-size: 32px;
+html {
+    font-family: Helvetica;
+    text-align: center;
 }
 
-h1,
-#process,
-.design {
-    font-weight: bold;
+li {
+    font-size: 18px;
 }
 
 p {
@@ -33,27 +65,4 @@ p {
 
 ul {
     list-style-type: none;
-}
-
-h1,
-.btn-nav1 {
-    color: white;
-}
-
-.design {
-    background-image: url(Resources/flatiron.png);
-}
-
-.design h2 {
-    font-size: 23px;
-    color: white;
-}
-#navlist2 ul li { 
-    display: inline; 
-}
-a:visited{
-    color: gray;
-}
-p.footer{
-    font-size: 11px;
 }
